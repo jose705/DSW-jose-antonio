@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  
+  body{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .contenedor{
+      padding: 60px 0;
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      overflow: hidden;
+  }
+  
+  .titulo{
+      color: #642a73;
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 60px;
+  }
+  
+  /*--Header--*/
+  
+  header{
+      width: 100%;
+      height: 600px;
+      background: #F0B429;
+      background: -webkit-linear-gradient(to right,  hsla(25, 91%, 54%, 0.701),hsla(42, 87%, 55%, 0.55)), url(../UNAD/CSS3.jpg);
+      background: linear-gradient(to right, hsla(25, 91%, 54%, 0.728),hsla(42, 87%, 55%, 0.585)), url(../UNAD/CSS3.jpg);
+      background-size: contain;
+      background-attachment: fixed;
+      position: relative;
+  }
+  
+  nav .menu{
+      text-align: right;
+      padding: 30px 50px 0 0;
+  }
+  
+  ul, ol{
+      display: block;
+      list-style: none;
+  }
+  
+  nav li > a{
+      color: #ffffff;
+      font-weight: 300;
+      text-decoration: none;
+      margin-right: 10px;
+      padding: 10px 20px;
+      display: block;
+  }
+  
+  li > a:hover{
+      text-decoration: underline;
+      background: hsla(200, 100%, 26%, 0.598);
+      transition: .5s;
+  }
+  
+  /*--sub-menu--*/
+  
+  .menu li ul{
+      display: none;
+      position: absolute;
+      min-width: 140px;
+  }
+  
+  .menu > li{
+      float: left;
+      text-align: justify;
+  }
+  
+  .menu li:hover > ul{
+      display: block;
+  
+  }
+  
+  .menu li ul li{
+      position: relative;
+  }
+   
+  .sub-tema > li a{
+      display: inline-block;
+      padding: 10px;
+      color: #ffffff;
+      justify-content: right;
+  }
+  
+  
+  /*----*/
+  
+  header .texto-header{
+      display: flex;
+      height: 430px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .texto-header h1{
+      font-size: 50px;
+      color: #ffffff;
+  }
+  
+  
+  .wave{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+  }
+  
+  /*--About us--*/
+  
+  .contenedor-objetivo{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  .twitter{
+      width: 48%;
+  }
+  
+  .sobre-nosotros .contenedor-texto{
+      width: 48%;
+  }
+  
+  .contenedor-texto h3{
+      margin-bottom: 15px;
+  }
+  
+  .contenedor-texto h3 span{
+      background: #4d0686;
+      color: #ffffff;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: center;
+      width: 30px;
+      height: 30px;
+      padding: 2px;
+      box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+      margin-right: 5px;
+  }
+
+  .contenedor-texto p span{
+    background: #4d0686;
+    color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+  
+  .contenedor-texto p{
+      padding: 0px 0px 30px 15px;
+      font-weight: 300;
+      text-align: justify;
+  }
+  
+  /*--footer--*/
+  
+  footer{
+      background:  #005883;
+      padding: 60px 0 30px 0;
+      margin: auto;
+      overflow: hidden;
+  }
+  
+  .contenedor-footer{
+      display: flex;
+      width: 90%;
+      justify-content: space-evenly;
+      margin: auto;
+      padding-bottom: 50px;
+      border-bottom: 1px solid #808080;
+  }
+  
+  .content-foot{
+      text-align: center;
+  }
+  
+  .content-foot h4{
+      color: #ffffff;
+      border-bottom: 3px solid  #F0B429;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+  }
+  
+  .content-foot p{
+      color: #ffffff;
+  }
+  .titulo-final{
+      text-align: center;
+      font-size: 24px;
+      margin: 20px 0 0 0;
+      color: #9e9797  ;
+  }
+
+  .texto-header .contenedor-slt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  

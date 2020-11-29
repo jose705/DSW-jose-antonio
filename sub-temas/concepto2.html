@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores CSS</title>
+    <link rel="shortcut icon" href="UNAD/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="submenu.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu"> 
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="">Concepto</a>
+                    <ul class="sub-tema">
+                        <li><a href="concepto1.html">CSS3: Estilos internos y Externos</a></li>
+                        <li><a href="concepto2.html">Selectores CSS</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Recursos</a>
+                    <ul class="sub-tema">
+                        <li><a href="recursos1.html">videos</a></li>
+                        <li><a href="recursos2.html">videos 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Autoevaluación</a>
+                    <ul class="sub-tema">
+                        <li><a href="nivel1.html">Sopa de letras</a></li>
+                        <li><a href="nivel2.html">Crucigrama</a></li>
+                    </ul>
+                </li>
+                <li><a href="../autor.html">Autor</a></li>
+            </ul>
+        </nav>
+        <section class="texto-header">
+            <h1>CSS3: Estilos internos y Externos,Selectores CSS</h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+    </header>
+    
+    <section class="contenedor texto-header">
+        <h2 class="titulo">Selectores CSS</h2>
+        <div class="contenedor-objetivo1">
+            <img src="../UNAD/images.jfif" alt="" class="imajen-about">
+            <div class="contenedor-textos">
+                <p>El <b>selector CSS</b> (Cascading Style Sheet) es el nexo de unión entre la hoja de estilos y los documentos a los que se aplique dicha hoja. Ya sean (x)HTML, XLM, SVG... y con independencia del medio en que se muestre (media type).
+                </p>
+            </div>
+            
+        </div>
+        <br>
+        <div class="contenedor-objetivo">
+            <h2 class="titulo">Tipos de Selectores CSS</h2><br>
+            <h2 class="titulo">Selectores Basicos</h2>
+            <div class="contenedor-texto">
+                <h3>CSS en linea</h3>
+                <p>El selector de tipo CSS hace coincidir elementos por nombre de nodo. En otras palabras, selecciona todos los elementos del tipo dado dentro de un documento.</p><img src="../UNAD/selectordetipo.png" alt="">
+                <br><br>
+                <h3>Selector de clases</h3>
+                <p>El selector de clases de CSS hace coincidir elementos en función del contenido de su atributo.<code>class</code></p><img src="../UNAD/selector de clase.png" alt="">
+                <br><br>
+                <h3>Selector de ID</h3>
+                <p>El selector de ID de CSS coincide con un elemento en función del valor del <code>id</code> atributo del elemento . Para que el elemento sea seleccionado, su <code>id</code> atributo debe coincidir exactamente con el valor dado en el selector.</p><img src="../UNAD/selectordeID.png" alt="">
+                <br><br>
+                <h3>Selector universal</h3>
+                <p>El selector universal CSS (<code>*</code>) coincide con elementos de cualquier tipo.</p><img src="../UNAD/selectoruniversal.png" alt=""><p>A partir de CSS3, el asterisco se puede utilizar en combinación con <code>namespaces</code>:</p>
+                <ol>
+                    <li><code>ns|*</code> - coincide con todos los elementos en el espacio de nombres ns</li>
+                    <li><code>*|*</code> - coincide con todos los elementos</li>
+                    <li><code>|*</code> - coincide con todos los elementos sin ningún espacio de nombres declarado</li>
+                </ol>
+                <br><br>
+                <h3>Selector de Atributo</h3>
+                <p>El selector de atributos CSS hace coincidir los elementos en función de la presencia o el valor de un atributo determinado.</p><img src="../UNAD/selectordeatributos.png" alt="">
+                <br><br><br>
+                <h2 class="titulo">Referencia</h2>
+                <a href="https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS">Selectores CSS - CSS |MDN</a>
+                <br>
+                <a href="https://es.wikipedia.org/wiki/Selector_CSS">Selector CSS - Wikipedia, la enciclopedia libre</a>
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foot">
+               <h4>Email</h4> 
+               <p>jhosuetom2002@gmail.com</p>
+            </div>
+            <div class="content-foot">
+                <h4>twitter</h4> 
+                <p>Jhosep@ntony</p>
+             </div>
+        </div>
+        <h2 class="titulo-final">&copy;UniversidadUNAD | Jose Antonio T</h2>
+    </footer>
+</body>
+</html>
