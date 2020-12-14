@@ -177,6 +177,14 @@ header .texto-header{
     font-size: 20px;
 }
 
+.contenedor-texto li{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
 /*--footer--*/
   
 footer{
